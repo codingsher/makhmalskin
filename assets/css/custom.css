@@ -1,0 +1,102 @@
+/* Makhmal Skin: velvet typography and texture */
+
+/* Comfortable reading size for all ages */
+html {
+  font-size: 17px;
+}
+
+body {
+  font-family: "Jost", "Segoe UI", sans-serif;
+  letter-spacing: 0.01em;
+  font-weight: 400;
+}
+
+/* Velvet blush wash at the top of the page in light mode */
+html:not(.dark) body {
+  background-image: linear-gradient(
+    180deg,
+    rgba(224, 182, 190, 0.3) 0px,
+    rgba(253, 246, 241, 0) 360px
+  );
+  background-repeat: no-repeat;
+}
+
+/* Roomier article text */
+.prose p,
+.prose li {
+  font-size: 1.0625rem;
+  line-height: 1.85;
+}
+
+h1, h2, h3, h4, h5, h6,
+.prose h1, .prose h2, .prose h3, .prose h4 {
+  font-family: "Cormorant Garamond", Georgia, serif;
+  letter-spacing: 0.015em;
+  font-weight: 600;
+}
+
+h1, .prose h1 {
+  font-size: 2.6rem;
+  line-height: 1.15;
+}
+
+/* Site wordmark in the top bar */
+.main-menu > a {
+  font-family: "Cormorant Garamond", Georgia, serif;
+  font-size: 1.4rem;
+  font-weight: 600;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+/* Top bar navigation, airy boutique feel */
+.main-menu nav a {
+  letter-spacing: 0.07em;
+  font-weight: 500;
+  text-transform: uppercase;
+  font-size: 0.8rem;
+}
+
+/* Velvet-soft imagery and cards */
+.prose img,
+article img {
+  border-radius: 1rem;
+}
+
+.border,
+[class*="rounded"] {
+  --tw-shadow-color: rgba(92, 47, 62, 0.06);
+}
+
+/* Soft rose selection */
+::selection {
+  background: rgba(224, 182, 190, 0.55);
+  color: rgb(52, 40, 40);
+}
+
+/* Gentle underline treatment for prose links */
+.prose a {
+  text-decoration-thickness: 1px;
+  text-underline-offset: 3px;
+  transition: color 0.2s ease;
+}
+
+/* Blockquotes as whispered notes */
+.prose blockquote {
+  font-family: "Cormorant Garamond", Georgia, serif;
+  font-size: 1.15em;
+  font-style: italic;
+  border-left-color: rgb(208, 169, 110);
+}
+
+/* Soften horizontal rules to a champagne shimmer */
+.prose hr {
+  border: 0;
+  height: 1px;
+  background: linear-gradient(
+    to right,
+    transparent,
+    rgba(208, 169, 110, 0.6),
+    transparent
+  );
+}

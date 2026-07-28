@@ -1,0 +1,37 @@
+/* Makhmal scheme: velvet rose, champagne gold, warm blush ivory neutrals */
+:root {
+  --color-neutral: 253, 246, 241;
+  /* Blush ivory to espresso plum */
+  --color-neutral-50: 250, 240, 234;
+  --color-neutral-100: 245, 232, 225;
+  --color-neutral-200: 233, 216, 208;
+  --color-neutral-300: 211, 192, 184;
+  --color-neutral-400: 170, 151, 144;
+  --color-neutral-500: 130, 111, 105;
+  --color-neutral-600: 99, 81, 77;
+  --color-neutral-700: 76, 60, 58;
+  --color-neutral-800: 52, 40, 40;
+  --color-neutral-900: 34, 25, 27;
+  /* Velvet rose / dusty mauve */
+  --color-primary-50: 250, 243, 244;
+  --color-primary-100: 246, 231, 233;
+  --color-primary-200: 238, 212, 217;
+  --color-primary-300: 224, 182, 190;
+  --color-primary-400: 205, 145, 158;
+  --color-primary-500: 183, 110, 127;
+  --color-primary-600: 160, 84, 103;
+  --color-primary-700: 133, 65, 84;
+  --color-primary-800: 110, 54, 71;
+  --color-primary-900: 92, 47, 62;
+  /* Champagne gold */
+  --color-secondary-50: 251, 247, 238;
+  --color-secondary-100: 246, 238, 221;
+  --color-secondary-200: 236, 220, 186;
+  --color-secondary-300: 223, 196, 146;
+  --color-secondary-400: 208, 169, 110;
+  --color-secondary-500: 190, 145, 84;
+  --color-secondary-600: 170, 120, 64;
+  --color-secondary-700: 142, 95, 52;
+  --color-secondary-800: 116, 77, 46;
+  --color-secondary-900: 96, 64, 41;
+}

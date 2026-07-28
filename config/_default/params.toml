@@ -1,0 +1,71 @@
+# Makhmal Skin theme parameters
+
+colorScheme = "makhmal"
+mainSections = ["blog"]
+defaultAppearance = "light"
+autoSwitchAppearance = false
+
+enableA11y = true
+enableSearch = true
+enableCodeCopy = false
+
+disableImageOptimization = false
+disableTextInHeader = false
+
+fingerprintAlgorithm = "sha512"
+
+[header]
+  layout = "fixed"
+
+[footer]
+  showMenu = true
+  showCopyright = true
+  showThemeAttribution = false
+  showAppearanceSwitcher = true
+  showScrollToTop = true
+
+[homepage]
+  layout = "page"
+  showRecent = true
+  showRecentItems = 3
+  showMoreLink = true
+  showMoreLinkDest = "/blog/"
+  cardView = true
+
+[article]
+  showDate = true
+  showAuthor = false
+  showHero = false
+  showBreadcrumbs = true
+  showDraftLabel = true
+  showEdit = false
+  seriesOpened = false
+  showHeadingAnchors = true
+  showPagination = true
+  showReadingTime = true
+  showTableOfContents = true
+  showTaxonomies = true
+  showWordCount = false
+  showViews = false
+  showLikes = false
+
+[list]
+  showHero = false
+  showBreadcrumbs = true
+  showSummary = true
+  showCards = true
+  cardView = true
+  groupByYear = false
+  showTableOfContents = false
+
+[taxonomy]
+  showTermCount = true
+  cardView = true
+
+[term]
+  showBreadcrumbs = true
+  cardView = true
+  groupByYear = false
+
+[sitemap]
+  excludedKinds = ["taxonomy", "term"]

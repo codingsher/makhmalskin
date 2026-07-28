@@ -1,0 +1,57 @@
+# Makhmal Skin menus
+
+[[main]]
+  name = "Blog"
+  pageRef = "blog"
+  weight = 10
+
+[[main]]
+  name = "Skincare"
+  parent = "Blog"
+  pageRef = "blog/skincare"
+  weight = 1
+
+[[main]]
+  name = "Makeup"
+  parent = "Blog"
+  pageRef = "blog/makeup"
+  weight = 2
+
+[[main]]
+  name = "Hair Care"
+  parent = "Blog"
+  pageRef = "blog/hair-care"
+  weight = 3
+
+[[main]]
+  name = "Fragrance"
+  parent = "Blog"
+  pageRef = "blog/fragrance"
+  weight = 4
+
+[[main]]
+  name = "Beauty Tools"
+  parent = "Blog"
+  pageRef = "blog/beauty-tools"
+  weight = 5
+
+[[main]]
+  name = "Buying Guides"
+  parent = "Blog"
+  pageRef = "blog/buying-guides"
+  weight = 6
+
+[[main]]
+  name = "About"
+  pageRef = "about"
+  weight = 20
+
+[[footer]]
+  name = "About"
+  pageRef = "about"
+  weight = 10
+
+[[footer]]
+  name = "Blog"
+  pageRef = "blog"
+  weight = 20

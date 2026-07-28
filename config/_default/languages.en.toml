@@ -1,0 +1,18 @@
+disabled = false
+locale = "en"
+label = "English"
+weight = 1
+title = "Makhmal Skin"
+
+[params]
+  displayName = "EN"
+  isoCode = "en"
+  rtl = false
+  dateFormat = "2 January 2006"
+  description = "Makhmal Skin is a gentle skincare brand for soft, healthy skin. Simple routines, honest ingredients, and calm daily care for every skin type."
+  copyright = "© { year } Makhmal Skin. All rights reserved."
+
+[params.author]
+  name = "Makhmal Skin"
+  headline = "Softness is a ritual."
+  bio = "Gentle skincare routines, honest ingredients, and velvet soft care for every age and skin type."

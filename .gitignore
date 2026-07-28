@@ -1,0 +1,17 @@
+# Hugo build output (regenerated on every build; hosts build from source)
+public/
+resources/
+.hugo_build.lock
+hugo_stats.json
+.hugo_cache/
+
+# Machine-local Claude Code settings
+.claude/settings.local.json
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+.idea/
+.vscode/
