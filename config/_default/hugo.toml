@@ -30,3 +30,6 @@ enableEmoji = true
 
 [outputs]
   home = ["HTML", "RSS", "JSON"]
+
+[params.verification]
+  pinterest = "2361bdf7976c2df31a5c828ed9e8922d"
